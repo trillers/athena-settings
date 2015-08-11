@@ -1,1 +1,1 @@
-# mit-settings
+# athena-settings

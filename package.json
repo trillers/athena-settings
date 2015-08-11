@@ -1,10 +1,10 @@
 {
-  "name": "pallas-settings",
+  "name": "athena-settings",
   "version": "0.1.0-SNAPSHOT",
-  "description": "pallas settings",
+  "description": "athena settings",
   "repository": {
     "type": "https",
-    "url": "https://github.com/trillers/pallas-settings.git"
+    "url": "https://github.com/trillers/athena-settings.git"
   },
   "main": "index.js",
   "author": "henryleu@126.com",

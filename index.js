@@ -59,7 +59,7 @@ var settings = module.exports = {
     appKey: 'wxf93b94a5d4c9beb0',
     appSecret: '108547cde3d34b636d590185a8345a58',
     token: 'trillers',
-    encodingAESKey: 'u66H0iFUqhQNCUMV4zAwMpy3fIFDR7a3GLSAm1rVz7d'
+    encodingAESKey: '9zYRktc6N1WPyqH6hXq38tJC2CVDaLjHIkxRpihzmx3'
   },
 
   locationServer: {

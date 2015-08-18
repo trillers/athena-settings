@@ -33,8 +33,8 @@ var settings = module.exports = {
 
   redis:{
     mode:'single',
-    host: '127.0.0.1',
-    port: 6379,
+    host: 'pub-redis-11671.us-east-1-3.6.ec2.redislabs.com',
+    port: 11671,
     auth:'',
     sentinel: {
       hosts:[{host: '127.0.0.1', port: 26379}],
@@ -43,11 +43,11 @@ var settings = module.exports = {
   },
 
   mongo: {
-    host: "127.0.0.1",
-    port: 27017,
+    host: "mongodb://trillers:trillers@ds031883.mongolab.com",
+    port: 31883,
     db: "zeus",
-    username: '',
-    password: ''
+    username: 'trillers',
+    password: 'trillers'
   },
 
   session: {
@@ -67,7 +67,7 @@ var settings = module.exports = {
     port: 80,
     ak: 'PwCZ3FQOyXeHDQKRQZvsrL8k'
   },
-  
+
   resources: {
     app: {
       name: "mit"

@@ -68,6 +68,11 @@ var settings = module.exports = {
     ak: 'PwCZ3FQOyXeHDQKRQZvsrL8k'
   },
 
+  txLocationServer: {
+    host: 'http://apis.map.qq.com/ws/geocoder/v1/',
+    key: '4WMBZ-5RPWW-A2QR3-RWHLB-O72WV-NPFRS'
+  },
+
   resources: {
     app: {
       name: "mit"

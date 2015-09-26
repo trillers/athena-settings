@@ -1,12 +1,12 @@
 var settings = module.exports = {
   env: {
-    name: 'prd',
-    mode: 'production',
+    name: 'dev',
+    mode: 'development',
     host: '127.0.0.1',
     port: 3020,
     bindIp: "0.0.0.0",
 
-    NODE_ENV: 'production',
+    NODE_ENV: 'development',
     PORT: 3020,
     BINDIP: "0.0.0.0"
   },
@@ -43,11 +43,11 @@ var settings = module.exports = {
   },
 
   mongo: {
-    host: "ds031883.mongolab.com",
-    port: 31883,
+    host: "127.0.0.1",
+    port: 27017,
     db: "trillers",
-    username: 'trillers',
-    password: 'trillers'
+    username: '',
+    password: ''
   },
 
   session: {

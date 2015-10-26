@@ -59,7 +59,9 @@ var settings = module.exports = {
     appKey: 'wx23f1709f7727051f',
     appSecret: '977f6080e128d465b673deb79e3d31b8',
     token: 'trillers',
-    encodingAESKey: '9zYRktc6N1WPyqH6hXq38tJC2CVDaLjHIkxRpihzmx3'
+    encodingAESKey: '9zYRktc6N1WPyqH6hXq38tJC2CVDaLjHIkxRpihzmx3',
+    siteId: 'gh_afc333104d2a',
+    siteName: '错题本'
   },
 
   locationServer: {

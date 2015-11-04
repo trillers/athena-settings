@@ -60,8 +60,8 @@ var settings = module.exports = {
     appSecret: '74ad148c79ac88f844ad98b72d59de96',
     token: 'trillers',
     encodingAESKey: '9zYRktc6N1WPyqH6hXq38tJC2CVDaLjHIkxRpihzmx3',
-    siteId: 'gh_afc333104d2a',
-    siteName: '错题本'
+    siteId: 'gh_76ea74206101',
+    siteName: '跟谁学西安'
   },
 
   locationServer: {

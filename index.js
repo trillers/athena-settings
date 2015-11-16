@@ -43,7 +43,7 @@ var settings = module.exports = {
   },
 
   mongo: {
-    host: "123.57.247.201",
+    host: "127.0.0.1",
     port: 27017,
     db: "wenode",
     username: 'wenode',

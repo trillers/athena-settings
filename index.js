@@ -17,13 +17,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3020,
-    domain: 'http://www.wenode.org',
+    domain: 'http://ci.www.wenode.org',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://www.wenode.org/api'
+    url: 'http://ci.www.wenode.org/api'
   },
 
   logging: {
@@ -33,7 +33,7 @@ var settings = module.exports = {
 
   redis:{
     mode:'single',
-    host: '121.42.61.180',
+    host: '127.0.0.1',
     port: 6379,
     auth:'trillers',
     sentinel: {
@@ -43,11 +43,11 @@ var settings = module.exports = {
   },
 
   mongo: {
-    host: "ds031883.mongolab.com",
-    port: 31883,
-    db: "trillers",
-    username: 'trillers',
-    password: 'trillers'
+    host: "114.215.91.211",
+    port: 27017,
+    db: "wenode-dev",
+    username: 'wenode-dev',
+    password: 'wenode-dev'
   },
 
   session: {

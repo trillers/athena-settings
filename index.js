@@ -33,9 +33,9 @@ var settings = module.exports = {
 
   redis:{
     mode:'single',
-    host: '127.0.0.1',
+    host: '121.42.61.180',
     port: 6379,
-    auth:'',
+    auth:'trillers',
     sentinel: {
       hosts:[{host: '127.0.0.1', port: 26379}],
       masterName:'mymaster'
@@ -43,11 +43,11 @@ var settings = module.exports = {
   },
 
   mongo: {
-    host: "127.0.0.1",
+    host: "114.215.91.211",
     port: 27017,
-    db: "trillers",
-    username: '',
-    password: ''
+    db: "wenode-dev",
+    username: 'wenode-dev',
+    password: 'wenode-dev'
   },
 
   session: {

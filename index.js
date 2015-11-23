@@ -17,13 +17,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3020,
-    domain: 'http://www.wenode.org',
+    domain: 'http://dev.www.wenode.org',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://www.wenode.org/api'
+    url: 'http://dev.www.wenode.org/api'
   },
 
   logging: {
@@ -43,8 +43,8 @@ var settings = module.exports = {
   },
 
   mongo: {
-    host: "ds031883.mongolab.com",
-    port: 31883,
+    host: "127.0.0.1",
+    port: 27017,
     db: "trillers",
     username: 'trillers',
     password: 'trillers'

@@ -75,6 +75,11 @@ var settings = module.exports = {
     key: '4WMBZ-5RPWW-A2QR3-RWHLB-O72WV-NPFRS'
   },
 
+  platform: {
+    name: '跟谁学',
+    desc: '跟谁学'
+  },
+  
   resources: {
     app: {
       name: "mit"

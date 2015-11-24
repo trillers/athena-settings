@@ -56,12 +56,12 @@ var settings = module.exports = {
   },
 
   wechat: {
-    appKey: 'wx23f1709f7727051f',
-    appSecret: '977f6080e128d465b673deb79e3d31b8',
+    appKey: 'wx9d66ca536fd64868',
+    appSecret: '3ea67717f75b4641b65f600bcb8da3df',
     token: 'trillers',
     encodingAESKey: '9zYRktc6N1WPyqH6hXq38tJC2CVDaLjHIkxRpihzmx3',
-    siteId: 'gh_afc333104d2a',
-    siteName: '错题本'
+    siteId: 'gh_414a400e8dbc',
+    siteName: '慧学习'
   },
 
   locationServer: {

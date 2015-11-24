@@ -17,13 +17,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3020,
-    domain: 'http://www.wenode.org',
+    domain: 'http://dev.www.wenode.org',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://www.wenode.org/api'
+    url: 'http://dev.www.wenode.org/api'
   },
 
   logging: {
@@ -43,11 +43,11 @@ var settings = module.exports = {
   },
 
   mongo: {
-    host: "ds049104.mongolab.com",
-    port: 49104,
-    db: "wenode",
-    username: 'wenode',
-    password: 'wenode'
+    host: "114.215.91.211",
+    port: 27017,
+    db: "wenode-case",
+    username: 'wenode-case',
+    password: 'wenode-case'
   },
 
   session: {
@@ -77,7 +77,7 @@ var settings = module.exports = {
 
   resources: {
     app: {
-      name: "mit"
+      name: "athena"
     }
   }
 };

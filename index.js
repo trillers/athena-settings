@@ -52,8 +52,10 @@ var settings = module.exports = {
 
   rabbitmq: {
     host: "114.215.91.211",
-    username: 'admin',
-    password: 'p@ssw0rd!'
+    port: 5672,
+    vhost: 'dev',
+    username: 'wenode',
+    password: 'wen0dep@ssw0rd!'
   },
 
   session: {

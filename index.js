@@ -50,6 +50,12 @@ var settings = module.exports = {
     password: 'wenode-dev'
   },
 
+  rabbitmq: {
+    host: "114.215.91.211",
+    username: 'admin',
+    password: 'p@ssw0rd!'
+  },
+
   session: {
     secretKey: 'quick',
     expires: 60 // minutes

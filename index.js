@@ -17,13 +17,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3020,
-    domain: 'http://www.wenode.org',
+    domain: 'http://dev.www.wenode.org',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://www.wenode.org/api'
+    url: 'http://dev.www.wenode.org/api'
   },
 
   logging: {
@@ -43,11 +43,11 @@ var settings = module.exports = {
   },
 
   mongo: {
-    host: "ds031883.mongolab.com",
-    port: 31883,
-    db: "trillers",
-    username: 'trillers',
-    password: 'trillers'
+    host: "127.0.0.1",
+    port: 27017,
+    db: "wenode",
+    username: 'wenode',
+    password: 'wenode'
   },
 
   rabbitmq: {
@@ -79,6 +79,11 @@ var settings = module.exports = {
   txLocationServer: {
     host: 'http://apis.map.qq.com/ws/geocoder/v1/',
     key: '4WMBZ-5RPWW-A2QR3-RWHLB-O72WV-NPFRS'
+  },
+
+  platform: {
+    name: '跟谁学',
+    desc: '跟谁学'
   },
 
   resources: {

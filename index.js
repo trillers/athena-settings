@@ -33,21 +33,17 @@ var settings = module.exports = {
 
   redis:{
     mode:'single',
-    host: '121.42.61.180',
+    host: '127.0.0.1',
     port: 6379,
-    auth:'trillers',
-    sentinel: {
-      hosts:[{host: '127.0.0.1', port: 26379}],
-      masterName:'mymaster'
-    }
+    auth:'trillers'
   },
 
   mongo: {
-    host: "114.215.91.211",
+    host: "127.0.0.1",
     port: 27017,
-    db: "wenode-dev",
-    username: 'wenode-dev',
-    password: 'wenode-dev'
+    db: "wenode",
+    username: 'wenode',
+    password: 'wenode'
   },
 
   rabbitmq: {

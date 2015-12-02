@@ -80,6 +80,11 @@ var settings = module.exports = {
     desc: '跟谁学'
   },
 
+  platform: {
+    name: '跟谁学',
+    desc: '跟谁学'
+  },
+  
   resources: {
     app: {
       name: "mit"

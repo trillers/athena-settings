@@ -1,6 +1,6 @@
 var settings = module.exports = {
   env: {
-    name: 'prd',
+    name: 'local',
     mode: 'production',
     host: '127.0.0.1',
     port: 3020,
@@ -17,13 +17,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3020,
-    domain: 'http://dev.www.wenode.org',
+    domain: 'http://local.www.wenode.org',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://dev.www.wenode.org/api'
+    url: 'http://local.www.wenode.org/api'
   },
 
   logging: {

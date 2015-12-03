@@ -46,6 +46,14 @@ var settings = module.exports = {
     password: 'wenode-dev'
   },
 
+  rabbitmq: {
+    host: "114.215.91.211",
+    port: 5672,
+    vhost: 'wenode_ci',
+    username: 'wenode',
+    password: 'wen0dep@ssw0rd!'
+  },
+
   session: {
     secretKey: 'quick',
     expires: 60 // minutes

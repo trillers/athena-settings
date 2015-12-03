@@ -35,11 +35,7 @@ var settings = module.exports = {
     mode:'single',
     host: '127.0.0.1',
     port: 6379,
-    auth:'trillers',
-    sentinel: {
-      hosts:[{host: '127.0.0.1', port: 26379}],
-      masterName:'mymaster'
-    }
+    auth:'trillers'
   },
 
   mongo: {
@@ -70,17 +66,6 @@ var settings = module.exports = {
     encodingAESKey: '9zYRktc6N1WPyqH6hXq38tJC2CVDaLjHIkxRpihzmx3',
     siteId: 'gh_afc333104d2a',
     siteName: '错题本'
-  },
-
-  locationServer: {
-    host: 'api.map.baidu.com',
-    port: 80,
-    ak: 'PwCZ3FQOyXeHDQKRQZvsrL8k'
-  },
-
-  txLocationServer: {
-    host: 'http://apis.map.qq.com/ws/geocoder/v1/',
-    key: '4WMBZ-5RPWW-A2QR3-RWHLB-O72WV-NPFRS'
   },
 
   platform: {

@@ -33,13 +33,9 @@ var settings = module.exports = {
 
   redis:{
     mode:'single',
-    host: '121.42.61.180',
+    host: '127.0.0.1',
     port: 6379,
-    auth:'trillers',
-    sentinel: {
-      hosts:[{host: '127.0.0.1', port: 26379}],
-      masterName:'mymaster'
-    }
+    auth:'trillers'
   },
 
   mongo: {

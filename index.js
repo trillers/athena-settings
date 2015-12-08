@@ -68,17 +68,6 @@ var settings = module.exports = {
     siteName: '跟谁学西安'
   },
 
-  locationServer: {
-    host: 'api.map.baidu.com',
-    port: 80,
-    ak: 'PwCZ3FQOyXeHDQKRQZvsrL8k'
-  },
-
-  txLocationServer: {
-    host: 'http://apis.map.qq.com/ws/geocoder/v1/',
-    key: '4WMBZ-5RPWW-A2QR3-RWHLB-O72WV-NPFRS'
-  },
-
   platform: {
     name: '跟谁学',
     desc: '跟谁学'
